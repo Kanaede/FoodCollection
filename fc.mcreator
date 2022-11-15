@@ -1,0 +1,241 @@
+{
+  "mod_elements": [
+    {
+      "name": "Spicy",
+      "type": "potioneffect",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy",
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "ImSpicy",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_spicy",
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "WelcomeAdv",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_adv",
+      "path": "~/System/Main"
+    },
+    {
+      "name": "SpicyStarted",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy_started",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "SpicyTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "SpicyStop",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy_stop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "Capsaicin",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin",
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "Capsaicin2",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin_2",
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "Capsaicin3",
+      "type": "potion",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin_3",
+      "path": "~/System/Effect/Spicy"
+    },
+    {
+      "name": "CapsaicinLevel2Recipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin_level_2_recipe",
+      "path": "~/Utility/World/Crafting/Capsaicin"
+    },
+    {
+      "name": "CapsaicinLevel3Recipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin_level_3_recipe",
+      "path": "~/Utility/World/Crafting/Capsaicin"
+    },
+    {
+      "name": "CapsaicinLevel1Recipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsaicin_level_1_recipe",
+      "path": "~/Utility/World/Crafting/Capsaicin"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.capsaicin_3": "Lingering Potion of Capsaicin III",
+      "item.minecraft.lingering_potion.effect.capsaicin_2": "Lingering Potion of Capsaicin I",
+      "item.minecraft.potion.effect.capsaicin_2": "Potion of Capsaicin I",
+      "advancements.im_spicy.title": "I\u0027M SPICY!!!",
+      "item.minecraft.lingering_potion.effect.capsaicin": "Lingering Potion of Capsaicin I",
+      "item.minecraft.potion.effect.capsaicin_3": "Potion of Capsaicin III",
+      "advancements.welcome_adv.descr": "Thanks for use this mod",
+      "item.minecraft.tipped_arrow.effect.capsaicin": "Arrow of Capsaicin I",
+      "advancements.welcome_adv.title": "I can eat all foods!",
+      "effect.fc.spicy": "It\u0027s very Spicy",
+      "item.minecraft.potion.effect.capsaicin": "Potion of Capsaicin I",
+      "item.minecraft.splash_potion.effect.capsaicin": "Splash Potion of Capsaicin I",
+      "advancements.im_spicy.descr": "Eat foods that contain capsaicin",
+      "item.minecraft.tipped_arrow.effect.capsaicin_3": "Arrow of Capsaicin III",
+      "item.minecraft.tipped_arrow.effect.capsaicin_2": "Arrow of Capsaicin I",
+      "item.minecraft.splash_potion.effect.capsaicin_2": "Splash Potion of Capsaicin I",
+      "item.minecraft.splash_potion.effect.capsaicin_3": "Splash Potion of Capsaicin III"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Food",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Utility",
+        "children": [
+          {
+            "name": "Player",
+            "children": [
+              {
+                "name": "Effect",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "World",
+            "children": [
+              {
+                "name": "Crafting",
+                "children": [
+                  {
+                    "name": "Capsaicin",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Display",
+        "children": []
+      },
+      {
+        "name": "System",
+        "children": [
+          {
+            "name": "Effect",
+            "children": [
+              {
+                "name": "Spicy",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Main",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fc",
+    "modName": "Food Collection",
+    "version": "1.0.0",
+    "author": "rakah, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "com.rakagit.foodcollection",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200346416
+}

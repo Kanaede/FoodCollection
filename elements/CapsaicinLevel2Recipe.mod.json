@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:Capsaicin"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.MAGMA_CREAM"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Capsaicin2"
+    },
+    "name": "capsaicin_level_2_recipe",
+    "namespace": "mod"
+  }
+}

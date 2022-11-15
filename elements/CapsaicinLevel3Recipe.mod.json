@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:Capsaicin2"
+    },
+    "brewingIngredientStack": {
+      "value": "Blocks.BASALT"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Capsaicin3"
+    },
+    "name": "capsaicin_level_3_recipe",
+    "namespace": "mod"
+  }
+}

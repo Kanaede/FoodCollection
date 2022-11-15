@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "kue_lapis"
+      },
+      "name": "default"
+    }
+  }
+}

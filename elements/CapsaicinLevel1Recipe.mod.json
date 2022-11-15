@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:MUNDANE"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.REDSTONE"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Capsaicin"
+    },
+    "name": "capsaicin_level_1_recipe",
+    "namespace": "mod"
+  }
+}

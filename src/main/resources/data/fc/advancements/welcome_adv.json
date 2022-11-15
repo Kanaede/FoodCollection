@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "welcome_adv": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

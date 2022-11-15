@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "advancements.im_spicy.title"
+    },
+    "description": {
+      "translate": "advancements.im_spicy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "im_spicy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fc:welcome_adv"
+}
