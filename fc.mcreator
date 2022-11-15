@@ -25,7 +25,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "welcome_adv",
-      "path": "~/System/Main"
+      "path": "~/System/Main/Adv"
     },
     {
       "name": "SpicyStarted",
@@ -140,6 +140,33 @@
       "locked_code": false,
       "registry_name": "bread_with_honey_jam",
       "path": "~/Items/Food"
+    },
+    {
+      "name": "FruitStuffedPie",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_stuffed_pie",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "RedApple",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_apple",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "Apple",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "apple",
+      "path": "~/System/Main/Tag Replace"
     }
   ],
   "variable_elements": [],
@@ -161,6 +188,8 @@
       "item.minecraft.splash_potion.effect.capsaicin": "Splash Potion of Capsaicin I",
       "advancements.im_spicy.descr": "Eat foods that contain capsaicin",
       "item.minecraft.tipped_arrow.effect.capsaicin_3": "Arrow of Capsaicin III",
+      "item.fc.fruit_stuffed_pie": "Fruit Stuffed Pie",
+      "item.fc.red_apple": "Red Apple",
       "item.minecraft.tipped_arrow.effect.capsaicin_2": "Arrow of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin_2": "Splash Potion of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin_3": "Splash Potion of Capsaicin III"
@@ -224,7 +253,16 @@
           },
           {
             "name": "Main",
-            "children": []
+            "children": [
+              {
+                "name": "Adv",
+                "children": []
+              },
+              {
+                "name": "Tag Replace",
+                "children": []
+              }
+            ]
           }
         ]
       }

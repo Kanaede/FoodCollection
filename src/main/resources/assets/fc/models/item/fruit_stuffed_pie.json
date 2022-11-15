@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/fruit_stuffed_pie",
+  "textures": {
+    "0": "fc:blocks/fruit_stuffed_pie",
+    "particle": "fc:items/fruit_stuffed_pie"
+  }
+}

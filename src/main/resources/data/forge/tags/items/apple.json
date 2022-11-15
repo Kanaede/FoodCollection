@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "fc:red_apple",
+    "minecraft:apple"
+  ]
+}

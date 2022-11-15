@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/apple",
+  "textures": {
+    "0": "fc:blocks/apple",
+    "particle": "fc:items/apple"
+  }
+}
