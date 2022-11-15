@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/tea",
+  "textures": {
+    "0": "fc:blocks/tea",
+    "particle": "fc:items/tea"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sweet_berries"
+    },
+    "1": {
+      "item": "minecraft:glow_berries"
+    },
+    "2": {
+      "item": "minecraft:apple"
+    },
+    "4": {
+      "item": "fc:bread_with_honey_jam"
+    }
+  },
+  "result": {
+    "item": "fc:fruit_stuffed_pie",
+    "count": 6
+  }
+}

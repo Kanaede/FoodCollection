@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="fc"
-version="1.0.0"
+version="0.1.0"
 displayName="Food Collection"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="rakah, MCreator"
+credits="Created at 11/15/2022"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/food-collection"
+logoFile="logo.png"
+authors="RakaGIT /  industrymine"
+description='''
+More food! With many Types, Colors, Variations, Shapes, and
+'''
 
 [[dependencies.fc]]
     modId="minecraft"

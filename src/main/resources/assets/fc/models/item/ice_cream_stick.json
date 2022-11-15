@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/ice_cream",
+  "textures": {
+    "0": "fc:blocks/stick",
+    "particle": "fc:items/ice_cream_stick"
+  }
+}

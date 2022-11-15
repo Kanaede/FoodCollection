@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cooked_beef"
+    },
+    "3": {
+      "item": "minecraft:bread"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    },
+    "5": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "fc:hotdog",
+    "count": 3
+  }
+}

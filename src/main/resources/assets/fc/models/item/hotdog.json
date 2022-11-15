@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/hot_dog",
+  "textures": {
+    "1": "fc:blocks/hot_dog",
+    "particle": "fc:items/hot_dog"
+  }
+}

@@ -176,6 +176,105 @@
       "locked_code": false,
       "registry_name": "food",
       "path": "~/System/Main/TAB"
+    },
+    {
+      "name": "BreadWithHoneyJamRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_with_honey_jam_recipe",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "FruitStuffedPieRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_stuffed_pie_recipe",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "Apple3DFormApple",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_3_d_form_apple",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "AppleFormApple3D",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_form_apple_3_d",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "GoldenAppleFormApple3D",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_apple_form_apple_3_d",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "IceCreamStick",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_stick",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "IceCreamStickRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_stick_recipe",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "Hotdog",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotdog",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "Tea",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "TeaRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_recipe",
+      "path": "~/Utility/World/Crafting/Items/Food"
+    },
+    {
+      "name": "HotdogRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotdog_recipe",
+      "path": "~/Utility/World/Crafting/Items/Food"
     }
   ],
   "variable_elements": [],
@@ -185,24 +284,27 @@
       "item.minecraft.lingering_potion.effect.capsaicin_3": "Lingering Potion of Capsaicin III",
       "item.minecraft.lingering_potion.effect.capsaicin_2": "Lingering Potion of Capsaicin I",
       "item.fc.bread_with_honey_jam": "Bread with Honey jam",
-      "item.minecraft.potion.effect.capsaicin_2": "Potion of Capsaicin I",
-      "advancements.im_spicy.title": "I\u0027M SPICY!!!",
       "item.minecraft.lingering_potion.effect.capsaicin": "Lingering Potion of Capsaicin I",
-      "item.minecraft.potion.effect.capsaicin_3": "Potion of Capsaicin III",
+      "advancements.im_spicy.title": "I\u0027M SPICY!!!",
+      "item.fc.hotdog": "Hotdog",
       "advancements.welcome_adv.descr": "Thanks for use this mod",
-      "item.minecraft.tipped_arrow.effect.capsaicin": "Arrow of Capsaicin I",
       "advancements.welcome_adv.title": "I can eat all foods!",
-      "effect.fc.spicy": "It\u0027s very Spicy",
       "item.minecraft.potion.effect.capsaicin": "Potion of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin": "Splash Potion of Capsaicin I",
       "advancements.im_spicy.descr": "Eat foods that contain capsaicin",
-      "item.minecraft.tipped_arrow.effect.capsaicin_3": "Arrow of Capsaicin III",
-      "item.fc.fruit_stuffed_pie": "Fruit Stuffed Pie",
       "item.fc.red_apple": "Red Apple",
-      "itemGroup.tabfood": "Food",
+      "item.minecraft.tipped_arrow.effect.capsaicin_3": "Arrow of Capsaicin III",
       "item.minecraft.tipped_arrow.effect.capsaicin_2": "Arrow of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin_2": "Splash Potion of Capsaicin I",
-      "item.minecraft.splash_potion.effect.capsaicin_3": "Splash Potion of Capsaicin III"
+      "item.minecraft.splash_potion.effect.capsaicin_3": "Splash Potion of Capsaicin III",
+      "item.minecraft.potion.effect.capsaicin_2": "Potion of Capsaicin I",
+      "item.minecraft.potion.effect.capsaicin_3": "Potion of Capsaicin III",
+      "item.minecraft.tipped_arrow.effect.capsaicin": "Arrow of Capsaicin I",
+      "effect.fc.spicy": "It\u0027s very Spicy",
+      "item.fc.tea": "Tea",
+      "item.fc.fruit_stuffed_pie": "Fruit Stuffed Pie",
+      "itemGroup.tabfood": "Food",
+      "item.fc.ice_cream_stick": "Ice Cream Stick"
     }
   },
   "foldersRoot": {
@@ -238,6 +340,15 @@
                   {
                     "name": "Capsaicin",
                     "children": []
+                  },
+                  {
+                    "name": "Items",
+                    "children": [
+                      {
+                        "name": "Food",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
@@ -285,17 +396,20 @@
   "workspaceSettings": {
     "modid": "fc",
     "modName": "Food Collection",
-    "version": "1.0.0",
-    "author": "rakah, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "0.1.0",
+    "description": "More food! With many Types, Colors, Variations, Shapes, and",
+    "author": "RakaGIT /  industrymine",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/food-collection",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "fcv2",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created at 11/15/2022",
     "modElementsPackage": "com.rakagit.foodcollection",
     "lockBaseModFiles": false
   },

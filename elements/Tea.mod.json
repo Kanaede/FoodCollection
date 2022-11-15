@@ -3,42 +3,40 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "bread_and_honey",
-    "customModelName": "bread_and_honey:default",
-    "name": "Bread with Honey jam",
-    "rarity": "RARE",
+    "texture": "tea",
+    "customModelName": "tea:default",
+    "name": "Tea",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:Food"
+      "value": "MISC"
     },
-    "stackSize": 64,
+    "stackSize": 16,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 10,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": ""
+      "value": "Items.BUCKET"
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Owner this mod Like this!"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 20,
-    "saturation": 0.01,
+    "nutritionalValue": 6,
+    "saturation": 2.0,
     "eatResultItem": {
-      "value": "Items.GLASS_BOTTLE"
+      "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "drink"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:honey_bottle"
+    },
+    "3": {
+      "item": "minecraft:bread"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    },
+    "5": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "fc:bread_with_honey_jam",
+    "count": 3
+  }
+}
