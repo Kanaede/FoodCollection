@@ -167,6 +167,15 @@
       "locked_code": true,
       "registry_name": "apple",
       "path": "~/System/Main/Tag Replace"
+    },
+    {
+      "name": "Food",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food",
+      "path": "~/System/Main/TAB"
     }
   ],
   "variable_elements": [],
@@ -190,6 +199,7 @@
       "item.minecraft.tipped_arrow.effect.capsaicin_3": "Arrow of Capsaicin III",
       "item.fc.fruit_stuffed_pie": "Fruit Stuffed Pie",
       "item.fc.red_apple": "Red Apple",
+      "itemGroup.tabfood": "Food",
       "item.minecraft.tipped_arrow.effect.capsaicin_2": "Arrow of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin_2": "Splash Potion of Capsaicin I",
       "item.minecraft.splash_potion.effect.capsaicin_3": "Splash Potion of Capsaicin III"
@@ -260,6 +270,10 @@
               },
               {
                 "name": "Tag Replace",
+                "children": []
+              },
+              {
+                "name": "TAB",
                 "children": []
               }
             ]

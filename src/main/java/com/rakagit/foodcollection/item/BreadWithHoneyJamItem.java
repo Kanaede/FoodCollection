@@ -9,16 +9,17 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
+import com.rakagit.foodcollection.init.FcModTabs;
+
 public class BreadWithHoneyJamItem extends Item {
 	public BreadWithHoneyJamItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.RARE)
+		super(new Item.Properties().tab(FcModTabs.TAB_FOOD).stacksTo(64).rarity(Rarity.RARE)
 				.food((new FoodProperties.Builder()).nutrition(20).saturationMod(0.01f)
 
 						.build()));

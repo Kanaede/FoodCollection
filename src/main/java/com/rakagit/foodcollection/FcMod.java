@@ -30,6 +30,7 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
+import com.rakagit.foodcollection.init.FcModTabs;
 import com.rakagit.foodcollection.init.FcModPotions;
 import com.rakagit.foodcollection.init.FcModMobEffects;
 import com.rakagit.foodcollection.init.FcModItems;
@@ -44,7 +45,7 @@ public class FcMod {
 	private static int messageID = 0;
 
 	public FcMod() {
-
+		FcModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		FcModItems.REGISTRY.register(bus);

@@ -8,7 +8,7 @@
     "name": "Fruit Stuffed Pie",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Food"
     },
     "stackSize": 64,
     "enchantability": 0,
