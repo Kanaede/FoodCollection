@@ -131,6 +131,15 @@
       "locked_code": false,
       "registry_name": "capsaicin_level_1_recipe",
       "path": "~/Utility/World/Crafting/Capsaicin"
+    },
+    {
+      "name": "BreadWithHoneyJam",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_with_honey_jam",
+      "path": "~/Items/Food"
     }
   ],
   "variable_elements": [],
@@ -139,6 +148,7 @@
     "en_us": {
       "item.minecraft.lingering_potion.effect.capsaicin_3": "Lingering Potion of Capsaicin III",
       "item.minecraft.lingering_potion.effect.capsaicin_2": "Lingering Potion of Capsaicin I",
+      "item.fc.bread_with_honey_jam": "Bread with Honey jam",
       "item.minecraft.potion.effect.capsaicin_2": "Potion of Capsaicin I",
       "advancements.im_spicy.title": "I\u0027M SPICY!!!",
       "item.minecraft.lingering_potion.effect.capsaicin": "Lingering Potion of Capsaicin I",

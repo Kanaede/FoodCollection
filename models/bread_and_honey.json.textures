@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bread_and_honey"
+      },
+      "name": "default"
+    }
+  }
+}

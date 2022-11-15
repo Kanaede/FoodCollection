@@ -32,6 +32,7 @@ import java.util.function.BiConsumer;
 
 import com.rakagit.foodcollection.init.FcModPotions;
 import com.rakagit.foodcollection.init.FcModMobEffects;
+import com.rakagit.foodcollection.init.FcModItems;
 
 @Mod("fc")
 public class FcMod {
@@ -45,6 +46,8 @@ public class FcMod {
 	public FcMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FcModItems.REGISTRY.register(bus);
 
 		FcModMobEffects.REGISTRY.register(bus);
 		FcModPotions.REGISTRY.register(bus);

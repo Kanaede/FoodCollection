@@ -1,0 +1,7 @@
+{
+  "parent": "fc:custom/bread_and_honey",
+  "textures": {
+    "0": "fc:blocks/bread_and_honey",
+    "particle": "fc:items/bread_and_honey"
+  }
+}
